@@ -2,8 +2,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import google.generativeai as genai
 
-TOKEN = "7269590038:AAEvwdHUrPHcakXJm1j8kSYhI1RMn_dF5Qg"
-API_KEY = "AIzaSyC-T-Ed7Z5WeuISCgML83jTe-MH9k12JX8"
+TOKEN = "Telegram bot token"
+API_KEY = "Goole Token"
 
 # Configure the generative model
 genai.configure(api_key=API_KEY)
